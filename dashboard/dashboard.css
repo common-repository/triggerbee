@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+/* ------ INSTALLATION  STYLING ------- */
+.settings-error 
+{
+	display:none; /* Hide WP settings field */
+}
+
+#wpcontent
+{
+  background-color: #F2F5F8;
+  width:auto;
+  position:relative;
+}
+
+.triggerbee_admin
+{
+  font-family: 'Source Sans 3', serif;
+  margin: 0 auto;
+}
+
+.triggerbee_admin input[type=number]::-webkit-inner-spin-button
+{
+  -webkit-appearance: none; 
+  margin: 0;
+} 
+.triggerbee_admin input[type=number]::-webkit-outer-spin-button{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.triggerbee_admin .logo{
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.triggerbee_admin .logo img{
+  max-width:200px!important;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+.triggerbee_admin_nocode .outer-box {
+  border-radius:12px;
+  box-shadow: 0 3px 1px -2px #0000001a,0 1px 1px #0000001a,0 1px 2px #0000001a!important;
+  background:#fff;
+  position:relative;
+  margin:0 auto;
+  padding:2.8rem;
+  max-width:600px;
+  width:50%;
+}
+.triggerbee_admin_nocode .content {
+  text-align:center;
+  padding:5px;
+}
+
+.triggerbee_admin_nocode #tbLinks{
+  margin-top: 10px;
+}
+
+.triggerbee_admin_nocode #tbLinks:hover{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.triggerbee_admin_nocode #loginLinks {
+  margin-top: 20px;
+}
+
+.triggerbee_admin_nocode #loginLinks a{
+  color: #3c434a;
+}
+
+.triggerbee_admin_nocode #loginLinks a:hover{
+  color: #516ce3;
+}
+
+.triggerbee_admin_nocode h1 {
+  color:#444;
+  font-size:30px;
+  font-weight:600;
+}
+
+.triggerbee_admin_nocode p {
+  font-size: 14px;
+}
+
+.triggerbee_admin_nocode input.text {
+  border-radius:0.2rem;
+  border:2px solid #ddd;
+  display:block;
+  margin:0 auto;
+  margin-top:15px;
+  padding:13px;
+  text-align:center;
+  max-width: 300px;
+  width: 100%;
+  box-shadow:none;
+}
+
+.triggerbee_admin_nocode input.text:focus {
+	border-color:#516CE3;
+}
+
+.triggerbee_admin_nocode button.submit {
+  background:#516CE3;
+  border:none;
+  border-radius:12px;
+  color:#fff;
+  display:block;
+  font-family:'Source Sans 3', serif;
+  font-weight:600;
+  margin:0 auto;
+  margin-top: 10px;
+  padding:16px;
+  max-width:300px;
+  width:100%;
+  cursor: pointer; 
+}
+
+.triggerbee_admin_nocode button.submit:hover {
+	box-shadow:1px 1px 3px rgba(0,0,0,.1);
+	background:#516CE3;
+}
+
+.triggerbee_admin_nocode #installation{
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.triggerbee_admin_nocode #id-validation
+{
+	background-color:#fff;
+	border:none;
+	display:none;
+	color:red;
+	font-size:12px;
+	font-weight:italic;
+	margin-bottom:-15px;
+}
+
+.outer-box h3{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+/* ----- STYLING SETTINGS PAGE ----- */
+.triggerbee_admin_nocode table a{
+  color: #3c434a;
+  text-decoration:none!important;
+  font-size: 12px;
+}
+
+.triggerbee_admin_nocode table a:hover{
+  color: #516ce3;
+}
+
+.triggerbee_admin_nocode tbody{
+  font-size: 16px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+padding: 0 10px;
+}
+
+.addon {
+	max-width: 240px;
+  background: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 60px;  
+}
+
+.outer-box h2{
+  font-size: 17px;
+  margin-top: 60px;
+  text-align: left;
+}
+
+#addons{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;  
+}
+
+p.addon-desc {
+	font-size:14px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 5px!important;
+    -webkit-margin-after: 5px!important;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.addon-boxes{
+  display: flex;
+}
+
+.addon-button {
+    color: #516CE3;
+    border: 1px solid #516CE3;
+    padding: 10px;
+    background: transparent;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.addon-button:hover {
+	background: #516CE3;
+	color: #fff;
+	cursor: pointer;
+}
+
+.emailtracking{
+  color: #3c434a;
+}
+
+#woocommerce_email_tracking, #woocommerce_email_tracking a{
+  color: #3c434a;
+  font-size: 12px;
+}
+
+#woocommerce_email_tracking a:hover{
+  color: #516CE3;
+}
+
+.active {
+  background: #ffffff url(https://triggerbee.com/wp-content/uploads/tbimages/2021/11/Check-green.svg) no-repeat;
+  background-size: 15px;
+  background-position: left;
+  border: none;
+  color: #516CE3;
+  width: auto;
+  padding-left: 25px;
+}
+
+#noWoocommerce{
+  font-size: 13px;
+  color: #e47373;
+}
+
+ /* ------ START MOBILE STYLING ------- */
+ 
+  @media (min-width: 481px) and (max-width: 782px) {
+	  
+.auto-fold #wpcontent {
+	padding-left:0;
+	  }
+
+ .triggerbee_admin_nocode h1, .triggerbee_admin_code h1 {
+  color:#444;
+  font-size:20px!important;
+  font-weight:600;
+}  
+
+.triggerbee_admin_nocode p {
+    font-size: 0.8rem;
+}	
+	  
+.triggerbee_admin_code .outer-box {
+	width:100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#wpcontent
+{
+  padding:0;
+  background-position: bottom;
+  background-size:contain;
+  position:relative;
+  width:100%;
+}
+
+.wp-core-ui .button {
+    width: 100%!important;
+}
+
+.triggerbee_admin_code .outer-box {
+    margin-top: 50px!important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.triggerbee_admin_code .content {
+	font-size:12px;
+}
+
+  }
+  
+  
+/* ------ CF7 STYLING ------- */
+.overlay
+{
+	display:none;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 30px;
+} 
+
+.overlay .table_section {
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.overlay .table_section h2{
+  margin-top: 0px;
+}
+
+.overlay .table_section table{
+  margin: unset;
+  border: none;
+}
+
+.wp-admin select {
+    padding: 2px;
+    line-height: 35px;
+    height: 35px;
+    width: 250px;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.wp-admin select:hover {
+	border:1px solid #516CE3;
+}
+
+.overlay .close
+{
+    font-size: 13px;
+    cursor: pointer;
+    bottom: 30px;
+    display: inline;
+    padding: 11px 25px;
+    border-radius: 12px;
+    margin-left:10px;
+    color: #ff5d5d;
+    background: #fff;
+    font-weight: 600;
+}
+
+.overlay .close:hover {
+	background:#ff5d5d;
+	color:#fff;
+}
+
+.overlay .submit
+{
+padding: 10px !important;
+display: unset !important;
+width: 120px !important;
+box-shadow: none !important;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
